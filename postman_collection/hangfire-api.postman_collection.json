@@ -1,0 +1,94 @@
+{
+	"info": {
+		"_postman_id": "50c619b5-3328-48c5-98fb-2aff0d9631b1",
+		"name": "hangfire-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1634224"
+	},
+	"item": [
+		{
+			"name": "FireAndForgetJob",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5039/api/hangfire/FireAndForgetJob",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5039",
+					"path": [
+						"api",
+						"hangfire",
+						"FireAndForgetJob"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DelayedJob",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5039/api/hangfire/DelayedJob",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5039",
+					"path": [
+						"api",
+						"hangfire",
+						"DelayedJob"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "RecurringJob",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5039/api/hangfire/RecurringJobs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5039",
+					"path": [
+						"api",
+						"hangfire",
+						"RecurringJobs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ContinuousJob",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5039/api/hangfire/ContinuousJob",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5039",
+					"path": [
+						"api",
+						"hangfire",
+						"ContinuousJob"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
